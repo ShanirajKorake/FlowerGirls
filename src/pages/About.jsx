@@ -1,7 +1,8 @@
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 
-
+import img from "../assets/flowers.jpg"
+import img2 from "../assets/profile.svg"
 const About = () => {
   return (
     <>
@@ -20,7 +21,7 @@ const About = () => {
       <div className="container mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <img
-            src="src/assets/flowers.jpg"
+            src={img}
             alt="Nature and flowers"
             className="rounded-lg shadow-md"
           />
@@ -68,7 +69,7 @@ const About = () => {
           {['Ms. Shruti T.', 'Ms. Arti B.'].map((name, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md">
               <img
-                src={`src/assets/profile.svg`}
+                src={img2}
                 alt={name}
                 className="w-24 h-24 mx-auto rounded-full mb-4"
               />

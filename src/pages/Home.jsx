@@ -2,12 +2,13 @@ import Feat from "../Components/Feat";
 import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import LatePro from "../Components/LatePro";
+import BBG from "../assets/home-bg.jpg"
 
 
 const Home = () => {
   return (
   <>
-    <div className="bg-[url('src/assets/home-bg.jpg')] bg-cover bg-center min-h-[calc(100vh-64px)] w-full">
+    <div className="bg-cover bg-center min-h-[calc(100vh-64px)] w-full" style={{ backgroundImage: `url(${BBG})` }}>
       <div className="h-svh w-full bg-gradient-to-tr from-gray-700 to-transparent flex flex-col items-center justify-center text-white px-4">
         <div className="pb-16 w-2/3">
         {/* Title */}

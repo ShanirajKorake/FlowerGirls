@@ -1,38 +1,42 @@
 import React from 'react';
 import FlowerCard from '../Components/Card'; // Assuming the FlowerCard component is in the same folder
 
+import prb1 from "../assets/prob1.jpg"
+import prb2 from "../assets/prob2.jpg"
+import prb3 from "../assets/prob3.jpg"
+
 const Products = () => {
   // Example product data
   const products = [
     {
       id: 1,
       name: 'Rose Bouquet',
-      price: 25.99,
-      image: 'src/assets/prob1.jpg',
+      price: 259,
+      image: prb1,
     },
     {
       id: 2,
       name: 'Tulip Charm',
-      price: 18.49,
-      image: 'src/assets/prob2.jpg',
+      price: 189,
+      image: prb2,
     },
     {
       id: 3,
       name: 'Sunflower Bliss',
-      price: 22.99,
-      image: 'src/assets/prob3.jpg',
+      price: 229,
+      image: prb3,
     },
     {
       id: 4,
       name: 'Lily Elegance',
-      price: 30.00,
-      image: 'src/assets/prob1.jpg',
+      price: 300,
+      image: prb1,
     },
     {
       id: 5,
       name: 'Orchid Grace',
-      price: 35.75,
-      image: 'src/assets/prob2.jpg',
+      price: 375,
+      image: prb2,
     },
   ];
 
